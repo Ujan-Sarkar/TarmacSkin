@@ -1,0 +1,10 @@
+{
+    "workorderId": "WO-rd-4956",
+    "roadId": "rd_demo_001",
+    "roadName": "DEMO Road",
+    "roadLocation": "Digital Twin Proving Grounds",
+    "timestamp": "2025-10-29T11:30:04.956054Z",
+    "status": "active_on_chain",
+    "currentRoadStatus": "Warning",
+    "blockchainTransactionHash": "1f7787022cce062f3ae6e5ba301d9bfc079664fe97b0a9152a1c87d3cd9e14ad"
+}

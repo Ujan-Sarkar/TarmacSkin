@@ -1,0 +1,174 @@
+{
+  "roads": [
+    {
+      "id": "rd_001",
+      "name": "MG Road - Bridge A",
+      "location": "Bangalore Central",
+      "coords": [[12.9716, 77.5946], [12.9726, 77.5956], [12.9736, 77.5966]],
+      "last_updated": "2025-10-25T12:00:00Z",
+      "ai_verdict": {
+        "label": "Healthy",
+        "confidence": 0.93
+      },
+      "metrics": {
+        "estimated_impact_force_N": 450,
+        "structural_health_score": 87,
+        "overload_alert": false,
+        "accel_peak_g": 0.12,
+        "accel_rms_g": 0.035,
+        "loadcell_force_kg": 42
+      },
+      "timeseries": [
+        {"ts": "2025-10-25T00:00:00Z", "estimated_impact_force_N": 420, "structural_health_score": 85, "accel_peak_g": 0.11, "accel_rms_g": 0.033, "loadcell_force_kg": 40},
+        {"ts": "2025-10-25T01:00:00Z", "estimated_impact_force_N": 410, "structural_health_score": 86, "accel_peak_g": 0.10, "accel_rms_g": 0.032, "loadcell_force_kg": 39},
+        {"ts": "2025-10-25T02:00:00Z", "estimated_impact_force_N": 405, "structural_health_score": 86, "accel_peak_g": 0.09, "accel_rms_g": 0.031, "loadcell_force_kg": 38},
+        {"ts": "2025-10-25T03:00:00Z", "estimated_impact_force_N": 400, "structural_health_score": 87, "accel_peak_g": 0.09, "accel_rms_g": 0.030, "loadcell_force_kg": 37},
+        {"ts": "2025-10-25T04:00:00Z", "estimated_impact_force_N": 415, "structural_health_score": 86, "accel_peak_g": 0.10, "accel_rms_g": 0.032, "loadcell_force_kg": 39},
+        {"ts": "2025-10-25T05:00:00Z", "estimated_impact_force_N": 425, "structural_health_score": 85, "accel_peak_g": 0.11, "accel_rms_g": 0.034, "loadcell_force_kg": 41},
+        {"ts": "2025-10-25T06:00:00Z", "estimated_impact_force_N": 440, "structural_health_score": 84, "accel_peak_g": 0.12, "accel_rms_g": 0.036, "loadcell_force_kg": 43},
+        {"ts": "2025-10-25T07:00:00Z", "estimated_impact_force_N": 455, "structural_health_score": 83, "accel_peak_g": 0.13, "accel_rms_g": 0.038, "loadcell_force_kg": 45},
+        {"ts": "2025-10-25T08:00:00Z", "estimated_impact_force_N": 470, "structural_health_score": 82, "accel_peak_g": 0.14, "accel_rms_g": 0.040, "loadcell_force_kg": 47},
+        {"ts": "2025-10-25T09:00:00Z", "estimated_impact_force_N": 465, "structural_health_score": 83, "accel_peak_g": 0.13, "accel_rms_g": 0.039, "loadcell_force_kg": 46},
+        {"ts": "2025-10-25T10:00:00Z", "estimated_impact_force_N": 460, "structural_health_score": 84, "accel_peak_g": 0.13, "accel_rms_g": 0.038, "loadcell_force_kg": 45},
+        {"ts": "2025-10-25T11:00:00Z", "estimated_impact_force_N": 455, "structural_health_score": 85, "accel_peak_g": 0.12, "accel_rms_g": 0.037, "loadcell_force_kg": 44},
+        {"ts": "2025-10-25T12:00:00Z", "estimated_impact_force_N": 450, "structural_health_score": 87, "accel_peak_g": 0.12, "accel_rms_g": 0.035, "loadcell_force_kg": 42}
+      ]
+    },
+    {
+      "id": "rd_002",
+      "name": "Brigade Road Junction",
+      "location": "Bangalore East",
+      "coords": [[12.9716, 77.6046], [12.9726, 77.6056], [12.9736, 77.6066]],
+      "last_updated": "2025-10-25T12:00:00Z",
+      "ai_verdict": {
+        "label": "Warning",
+        "confidence": 0.78
+      },
+      "metrics": {
+        "estimated_impact_force_N": 680,
+        "structural_health_score": 72,
+        "overload_alert": true,
+        "accel_peak_g": 0.18,
+        "accel_rms_g": 0.052,
+        "loadcell_force_kg": 65
+      },
+      "timeseries": [
+        {"ts": "2025-10-25T00:00:00Z", "estimated_impact_force_N": 650, "structural_health_score": 74, "accel_peak_g": 0.17, "accel_rms_g": 0.050, "loadcell_force_kg": 63},
+        {"ts": "2025-10-25T01:00:00Z", "estimated_impact_force_N": 640, "structural_health_score": 75, "accel_peak_g": 0.16, "accel_rms_g": 0.049, "loadcell_force_kg": 62},
+        {"ts": "2025-10-25T02:00:00Z", "estimated_impact_force_N": 635, "structural_health_score": 75, "accel_peak_g": 0.16, "accel_rms_g": 0.048, "loadcell_force_kg": 61},
+        {"ts": "2025-10-25T03:00:00Z", "estimated_impact_force_N": 630, "structural_health_score": 76, "accel_peak_g": 0.15, "accel_rms_g": 0.047, "loadcell_force_kg": 60},
+        {"ts": "2025-10-25T04:00:00Z", "estimated_impact_force_N": 645, "structural_health_score": 74, "accel_peak_g": 0.16, "accel_rms_g": 0.049, "loadcell_force_kg": 62},
+        {"ts": "2025-10-25T05:00:00Z", "estimated_impact_force_N": 660, "structural_health_score": 73, "accel_peak_g": 0.17, "accel_rms_g": 0.051, "loadcell_force_kg": 64},
+        {"ts": "2025-10-25T06:00:00Z", "estimated_impact_force_N": 670, "structural_health_score": 72, "accel_peak_g": 0.18, "accel_rms_g": 0.052, "loadcell_force_kg": 65},
+        {"ts": "2025-10-25T07:00:00Z", "estimated_impact_force_N": 685, "structural_health_score": 71, "accel_peak_g": 0.19, "accel_rms_g": 0.054, "loadcell_force_kg": 67},
+        {"ts": "2025-10-25T08:00:00Z", "estimated_impact_force_N": 695, "structural_health_score": 70, "accel_peak_g": 0.20, "accel_rms_g": 0.056, "loadcell_force_kg": 68},
+        {"ts": "2025-10-25T09:00:00Z", "estimated_impact_force_N": 690, "structural_health_score": 71, "accel_peak_g": 0.19, "accel_rms_g": 0.055, "loadcell_force_kg": 67},
+        {"ts": "2025-10-25T10:00:00Z", "estimated_impact_force_N": 685, "structural_health_score": 71, "accel_peak_g": 0.19, "accel_rms_g": 0.054, "loadcell_force_kg": 66},
+        {"ts": "2025-10-25T11:00:00Z", "estimated_impact_force_N": 675, "structural_health_score": 72, "accel_peak_g": 0.18, "accel_rms_g": 0.053, "loadcell_force_kg": 65},
+        {"ts": "2025-10-25T12:00:00Z", "estimated_impact_force_N": 680, "structural_health_score": 72, "accel_peak_g": 0.18, "accel_rms_g": 0.052, "loadcell_force_kg": 65}
+      ]
+    },
+    {
+      "id": "rd_003",
+      "name": "Koramangala Flyover",
+      "location": "Bangalore South",
+      "coords": [[12.9316, 77.6146], [12.9326, 77.6156], [12.9336, 77.6166]],
+      "last_updated": "2025-10-25T12:00:00Z",
+      "ai_verdict": {
+        "label": "Critical",
+        "confidence": 0.89
+      },
+      "metrics": {
+        "estimated_impact_force_N": 850,
+        "structural_health_score": 52,
+        "overload_alert": true,
+        "accel_peak_g": 0.25,
+        "accel_rms_g": 0.075,
+        "loadcell_force_kg": 82
+      },
+      "timeseries": [
+        {"ts": "2025-10-25T00:00:00Z", "estimated_impact_force_N": 820, "structural_health_score": 54, "accel_peak_g": 0.24, "accel_rms_g": 0.073, "loadcell_force_kg": 80},
+        {"ts": "2025-10-25T01:00:00Z", "estimated_impact_force_N": 810, "structural_health_score": 55, "accel_peak_g": 0.23, "accel_rms_g": 0.072, "loadcell_force_kg": 79},
+        {"ts": "2025-10-25T02:00:00Z", "estimated_impact_force_N": 805, "structural_health_score": 55, "accel_peak_g": 0.23, "accel_rms_g": 0.071, "loadcell_force_kg": 78},
+        {"ts": "2025-10-25T03:00:00Z", "estimated_impact_force_N": 800, "structural_health_score": 56, "accel_peak_g": 0.22, "accel_rms_g": 0.070, "loadcell_force_kg": 77},
+        {"ts": "2025-10-25T04:00:00Z", "estimated_impact_force_N": 815, "structural_health_score": 54, "accel_peak_g": 0.23, "accel_rms_g": 0.072, "loadcell_force_kg": 79},
+        {"ts": "2025-10-25T05:00:00Z", "estimated_impact_force_N": 830, "structural_health_score": 53, "accel_peak_g": 0.24, "accel_rms_g": 0.074, "loadcell_force_kg": 81},
+        {"ts": "2025-10-25T06:00:00Z", "estimated_impact_force_N": 840, "structural_health_score": 52, "accel_peak_g": 0.25, "accel_rms_g": 0.075, "loadcell_force_kg": 82},
+        {"ts": "2025-10-25T07:00:00Z", "estimated_impact_force_N": 855, "structural_health_score": 51, "accel_peak_g": 0.26, "accel_rms_g": 0.077, "loadcell_force_kg": 84},
+        {"ts": "2025-10-25T08:00:00Z", "estimated_impact_force_N": 865, "structural_health_score": 50, "accel_peak_g": 0.27, "accel_rms_g": 0.079, "loadcell_force_kg": 85},
+        {"ts": "2025-10-25T09:00:00Z", "estimated_impact_force_N": 860, "structural_health_score": 51, "accel_peak_g": 0.26, "accel_rms_g": 0.078, "loadcell_force_kg": 84},
+        {"ts": "2025-10-25T10:00:00Z", "estimated_impact_force_N": 855, "structural_health_score": 51, "accel_peak_g": 0.26, "accel_rms_g": 0.077, "loadcell_force_kg": 83},
+        {"ts": "2025-10-25T11:00:00Z", "estimated_impact_force_N": 845, "structural_health_score": 52, "accel_peak_g": 0.25, "accel_rms_g": 0.076, "loadcell_force_kg": 82},
+        {"ts": "2025-10-25T12:00:00Z", "estimated_impact_force_N": 850, "structural_health_score": 52, "accel_peak_g": 0.25, "accel_rms_g": 0.075, "loadcell_force_kg": 82}
+      ]
+    },
+    {
+      "id": "rd_004",
+      "name": "Whitefield Main Road",
+      "location": "Bangalore East",
+      "coords": [[12.9716, 77.7146], [12.9726, 77.7156], [12.9736, 77.7166]],
+      "last_updated": "2025-10-25T12:00:00Z",
+      "ai_verdict": {
+        "label": "Healthy",
+        "confidence": 0.91
+      },
+      "metrics": {
+        "estimated_impact_force_N": 420,
+        "structural_health_score": 89,
+        "overload_alert": false,
+        "accel_peak_g": 0.10,
+        "accel_rms_g": 0.030,
+        "loadcell_force_kg": 38
+      },
+      "timeseries": [
+        {"ts": "2025-10-25T00:00:00Z", "estimated_impact_force_N": 390, "structural_health_score": 90, "accel_peak_g": 0.09, "accel_rms_g": 0.028, "loadcell_force_kg": 36},
+        {"ts": "2025-10-25T01:00:00Z", "estimated_impact_force_N": 380, "structural_health_score": 91, "accel_peak_g": 0.08, "accel_rms_g": 0.027, "loadcell_force_kg": 35},
+        {"ts": "2025-10-25T02:00:00Z", "estimated_impact_force_N": 375, "structural_health_score": 91, "accel_peak_g": 0.08, "accel_rms_g": 0.026, "loadcell_force_kg": 34},
+        {"ts": "2025-10-25T03:00:00Z", "estimated_impact_force_N": 370, "structural_health_score": 92, "accel_peak_g": 0.07, "accel_rms_g": 0.025, "loadcell_force_kg": 33},
+        {"ts": "2025-10-25T04:00:00Z", "estimated_impact_force_N": 385, "structural_health_score": 91, "accel_peak_g": 0.08, "accel_rms_g": 0.027, "loadcell_force_kg": 35},
+        {"ts": "2025-10-25T05:00:00Z", "estimated_impact_force_N": 395, "structural_health_score": 90, "accel_peak_g": 0.09, "accel_rms_g": 0.029, "loadcell_force_kg": 37},
+        {"ts": "2025-10-25T06:00:00Z", "estimated_impact_force_N": 410, "structural_health_score": 89, "accel_peak_g": 0.10, "accel_rms_g": 0.031, "loadcell_force_kg": 39},
+        {"ts": "2025-10-25T07:00:00Z", "estimated_impact_force_N": 425, "structural_health_score": 88, "accel_peak_g": 0.11, "accel_rms_g": 0.033, "loadcell_force_kg": 41},
+        {"ts": "2025-10-25T08:00:00Z", "estimated_impact_force_N": 435, "structural_health_score": 87, "accel_peak_g": 0.12, "accel_rms_g": 0.035, "loadcell_force_kg": 42},
+        {"ts": "2025-10-25T09:00:00Z", "estimated_impact_force_N": 430, "structural_health_score": 88, "accel_peak_g": 0.11, "accel_rms_g": 0.034, "loadcell_force_kg": 41},
+        {"ts": "2025-10-25T10:00:00Z", "estimated_impact_force_N": 425, "structural_health_score": 89, "accel_peak_g": 0.11, "accel_rms_g": 0.033, "loadcell_force_kg": 40},
+        {"ts": "2025-10-25T11:00:00Z", "estimated_impact_force_N": 415, "structural_health_score": 90, "accel_peak_g": 0.10, "accel_rms_g": 0.031, "loadcell_force_kg": 39},
+        {"ts": "2025-10-25T12:00:00Z", "estimated_impact_force_N": 420, "structural_health_score": 89, "accel_peak_g": 0.10, "accel_rms_g": 0.030, "loadcell_force_kg": 38}
+      ]
+    },
+    {
+      "id": "rd_005",
+      "name": "Outer Ring Road - Section 3",
+      "location": "Bangalore North",
+      "coords": [[13.0316, 77.5946], [13.0326, 77.5956], [13.0336, 77.5966]],
+      "last_updated": "2025-10-25T12:00:00Z",
+      "ai_verdict": {
+        "label": "Warning",
+        "confidence": 0.82
+      },
+      "metrics": {
+        "estimated_impact_force_N": 720,
+        "structural_health_score": 68,
+        "overload_alert": true,
+        "accel_peak_g": 0.21,
+        "accel_rms_g": 0.062,
+        "loadcell_force_kg": 70
+      },
+      "timeseries": [
+        {"ts": "2025-10-25T00:00:00Z", "estimated_impact_force_N": 690, "structural_health_score": 70, "accel_peak_g": 0.20, "accel_rms_g": 0.060, "loadcell_force_kg": 68},
+        {"ts": "2025-10-25T01:00:00Z", "estimated_impact_force_N": 680, "structural_health_score": 71, "accel_peak_g": 0.19, "accel_rms_g": 0.059, "loadcell_force_kg": 67},
+        {"ts": "2025-10-25T02:00:00Z", "estimated_impact_force_N": 675, "structural_health_score": 71, "accel_peak_g": 0.19, "accel_rms_g": 0.058, "loadcell_force_kg": 66},
+        {"ts": "2025-10-25T03:00:00Z", "estimated_impact_force_N": 670, "structural_health_score": 72, "accel_peak_g": 0.18, "accel_rms_g": 0.057, "loadcell_force_kg": 65},
+        {"ts": "2025-10-25T04:00:00Z", "estimated_impact_force_N": 685, "structural_health_score": 70, "accel_peak_g": 0.19, "accel_rms_g": 0.059, "loadcell_force_kg": 67},
+        {"ts": "2025-10-25T05:00:00Z", "estimated_impact_force_N": 700, "structural_health_score": 69, "accel_peak_g": 0.20, "accel_rms_g": 0.061, "loadcell_force_kg": 69},
+        {"ts": "2025-10-25T06:00:00Z", "estimated_impact_force_N": 710, "structural_health_score": 68, "accel_peak_g": 0.21, "accel_rms_g": 0.062, "loadcell_force_kg": 70},
+        {"ts": "2025-10-25T07:00:00Z", "estimated_impact_force_N": 725, "structural_health_score": 67, "accel_peak_g": 0.22, "accel_rms_g": 0.064, "loadcell_force_kg": 72},
+        {"ts": "2025-10-25T08:00:00Z", "estimated_impact_force_N": 735, "structural_health_score": 66, "accel_peak_g": 0.23, "accel_rms_g": 0.066, "loadcell_force_kg": 73},
+        {"ts": "2025-10-25T09:00:00Z", "estimated_impact_force_N": 730, "structural_health_score": 67, "accel_peak_g": 0.22, "accel_rms_g": 0.065, "loadcell_force_kg": 72},
+        {"ts": "2025-10-25T10:00:00Z", "estimated_impact_force_N": 725, "structural_health_score": 67, "accel_peak_g": 0.22, "accel_rms_g": 0.064, "loadcell_force_kg": 71},
+        {"ts": "2025-10-25T11:00:00Z", "estimated_impact_force_N": 715, "structural_health_score": 68, "accel_peak_g": 0.21, "accel_rms_g": 0.063, "loadcell_force_kg": 70},
+        {"ts": "2025-10-25T12:00:00Z", "estimated_impact_force_N": 720, "structural_health_score": 68, "accel_peak_g": 0.21, "accel_rms_g": 0.062, "loadcell_force_kg": 70}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "workorderId": "WO-rd_0-88610",
+    "roadId": "rd_001",
+    "roadName": "MG Road - Bridge A",
+    "roadLocation": "Bangalore Central",
+    "timestamp": "2025-10-26T20:53:08.610031Z",
+    "status": "active",
+    "currentRoadStatus": "Healthy",
+    "blockchainTransactionHash": "d47cad1ca8cc8ee43b8deefb3bec299ed6be8fb8ec5b037fd75d88f293d53c2f"
+}

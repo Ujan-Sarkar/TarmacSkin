@@ -1,0 +1,221 @@
+[
+    {
+        "inputs": [],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "internalType": "string",
+                "name": "workorderId",
+                "type": "string"
+            },
+            {
+                "indexed": true,
+                "internalType": "string",
+                "name": "roadId",
+                "type": "string"
+            },
+            {
+                "indexed": false,
+                "internalType": "address",
+                "name": "createdBy",
+                "type": "address"
+            },
+            {
+                "indexed": false,
+                "internalType": "uint256",
+                "name": "blockTimestamp",
+                "type": "uint256"
+            }
+        ],
+        "name": "WorkorderCreated",
+        "type": "event"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "_workorderId",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "_roadId",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "_timestamp",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "_status",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "_roadName",
+                "type": "string"
+            }
+        ],
+        "name": "createWorkorder",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "_workorderId",
+                "type": "string"
+            }
+        ],
+        "name": "getWorkorder",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "internalType": "string",
+                        "name": "workorderId",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "roadId",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "timestamp",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "status",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "roadName",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "createdBy",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "blockTimestamp",
+                        "type": "uint256"
+                    }
+                ],
+                "internalType": "struct WorkorderManager.Workorder",
+                "name": "",
+                "type": "tuple"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "getWorkorderCount",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "owner",
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "name": "workorderIds",
+        "outputs": [
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "name": "workorders",
+        "outputs": [
+            {
+                "internalType": "string",
+                "name": "workorderId",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "roadId",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "timestamp",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "status",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "roadName",
+                "type": "string"
+            },
+            {
+                "internalType": "address",
+                "name": "createdBy",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "blockTimestamp",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
