@@ -1,6 +1,6 @@
-**TarmacSkin 2.0: Real-Time AI & Blockchain-Backed Road Structural Health Monitoring**
+**TarmacSkin: Real-Time AI & Blockchain-Backed Road Structural Health Monitoring**
 
-TarmacSkin 2.0 is an end-to-end cyber-physical infrastructure monitoring system. It continuously ingests high-frequency, multi-axis accelerometer and load data streams from on-site sensor systems (using an ESP32 or serial simulator), uses a hybrid machine learning and deterministic override pipeline (XGBoost + Safety Rules) to predict structural state severity, and generates immutable, decentralized maintenance logs (workorders) on a private Ethereum blockchain.
+TarmacSkin is an end-to-end cyber-physical infrastructure monitoring system. It continuously ingests high-frequency, multi-axis accelerometer and load data streams from on-site sensor systems (using an ESP32 or serial simulator), uses a hybrid machine learning and deterministic override pipeline (XGBoost + Safety Rules) to predict structural state severity, and generates immutable, decentralized maintenance logs (workorders) on a private Ethereum blockchain.
 
 **Key Features**
 
@@ -15,28 +15,6 @@ TarmacSkin 2.0 is an end-to-end cyber-physical infrastructure monitoring system.
 **Decentralized Audit Trails:** Direct integration with a local private Ethereum ledger (Ganache) via Solidity smart contracts, storing tamper-proof maintenance workorders.
 
 **Dynamic Digital Twin Dashboard:** A highly interactive React + TypeScript interface for real-time visualization and toggleable manual test-bed evaluation.
-
-**System Architecture**
-
-                                      +------------------------------------+
-                                      |         React 18 Frontend          |
-                                      |  (TypeScript, Tailwind, shadcn)    |
-                                      +-----------------+------------------+
-                                                        ^  (HTTP Polling /
-                                                        |   REST APIs)
-                                                        v
-+------------------+  (COM / USB)     +-----------------+------------------+
-|      ESP32 /     |----------------->|          Flask Backend             |
-| Serial Simulator | (Serial Thread)  | (PySerial, XGBoost, Web3.py, CORS) |
-+------------------+                  +-----------------+------------------+
-                                                        |
-                                                        |  (JSON-RPC / Web3)
-                                                        v
-                                      +-----------------+------------------+
-                                      |         Ganache Network            |
-                                      |    (Solidity Smart Contract)       |
-                                      +------------------------------------+
-
 
 **Prerequisites**
 
@@ -92,7 +70,7 @@ Configure environmental parameters in app.py:
 
 Open app.py and input your exact Ganache contract settings:
 
-CONTRACT_ADDRESS = "0x641A92A8b56EDD6d18b8a7d43f36070F2dD0A14B"
+CONTRACT_ADDRESS = "0x641A92A8...."
 DEPLOYER_PRIVATE_KEY = "0x73e88b883..."
 SERIAL_PORT = "COM6" # Update to match your ESP32 interface
 
@@ -128,7 +106,7 @@ The dashboard will spin up. Access the web interface at http://localhost:8080 (o
 
 **Blockchain Operations Deep-Dive**
 
-TarmacSkin 2.0 handles critical maintenance logging securely through Decentralized Ledger Technology (DLT). Here is the technical breakdown of how workorders are submitted to the ledger:
+TarmacSkin handles critical maintenance logging securely through Decentralized Ledger Technology (DLT). Here is the technical breakdown of how workorders are submitted to the ledger:
 
 **1. Trigger Mechanics**
 
